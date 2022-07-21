@@ -8,4 +8,4 @@ Included some projects of my own that utlizes more of my learning on JavaScript 
 HTML and CSS.
 
 ### Please feel free to contact me down below of my website if you ever need to reach out to me. 
-[Live preview](https://hoisinb0i.github.io/Portfolio_Website/)
+[Go Live](https://hoisinb0i.github.io/Portfolio_Website/)
