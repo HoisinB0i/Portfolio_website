@@ -1,216 +1,233 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Kevin's Website</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
+<html lang="en">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap"
-      rel="stylesheet"
-      />
+<head>
+  <title>Kevin's Website</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-      />
+  <script src="https://kit.fontawesome.com/27c2265489.js" crossorigin="anonymous"></script>
+</head>
 
-    <script
-      src="https://kit.fontawesome.com/27c2265489.js"
-      crossorigin="anonymous"></script>
-  </head>
-  <body>
-    <button onclick="topFunction()" id="myBtn" title="Back to top of th page">Back
-      to top</button>
-    <!---Navigation section-->
-    <div class="hero">
-      <nav>
-        <h2 class="logo">Kev<span>in</span></h2>
-        <ul>
-          <li><button onclick="middleFunction()" id="middle">About Me</li>
-            <li><button onclick="skillFunction()" id="skill">Projects</li>
-              <li><button onclick="contactFunction()" id="contactMe">Contact Me</li>
-              </ul>
-              <a href="https://www.linkedin.com/in/kevin-bui-292b6a21b/"
-                class="btn">
-                <i class="fa-brands fa-linkedin-in fa-2x" title="linkedin.com"></i>
-              </a>
-            </nav>
-            <div class="content">
-              <h4>Hello, my name is</h4>
-              <h1>Kevin Bui</h1>
-              <h3>I'm a self-taught web developer.</h3>
-            </div>
-          </div>
-          <!---About me, section-->
-          <section class="about">
-            <div class="main">
-              <img src="typing.jpg" />
-              <div class="about-text">
-                <h2>About Me</h2>
-                <h5>Web Developer & Game enthusiast</h5>
-                <p>
-                  Eager and passionate student learning fundamental skills
-                  through Coursera and "The Odin Project" to help guide me on a journey of software
-                  developments, to enable me to apply them to projects
-                  consisting of creating something fun and rewarding. Currently
-                  on track taking a course with “IBM for Full Stack Software
-                  Development,” learning something new and applying them everyday. <br/><br/>
-                  Throughout the course, I gain knowledge of creating layouts
-                  and designs using HTML5 and CSS to style my works; using
-                  JavaScript object-oriented to sort of make them more alive and
-                  interactive. Also focusing on building more on the foundation
-                  of vanilla JavaScript before I move on to learning frameworks
-                  like node.js and react to help build my projects more
-                  efficiently and user-friendly. I mainly use Microsoft Visual
-                  Studio as my go-to IDE for its lightweight and versatile
-                  functionality. Familiarizing GIT and PowerShell as I go to
-                  commit my code and install any packages that are related to my
-                  code.
-                </p>
+<body>
+  <button onclick="topFunction()" id="myBtn" title="Back to top of th page">Back
+    to top</button>
+  <!---Navigation section-->
+  <div class="hero">
+    <nav>
+      <h2 class="logo">Kev<span>in</span></h2>
+      <ul>
+        <li><button onclick="middleFunction()" id="middle">About Me</li>
+        <li><button onclick="skillFunction()" id="skill">Projects</li>
+        <li><button onclick="contactFunction()" id="contactMe">Contact Me</li>
+      </ul>
+      <a href="https://www.linkedin.com/in/kevin-bui-292b6a21b/" class="btn">
+        <i class="fa-brands fa-linkedin-in fa-2x" title="linkedin.com"></i>
+      </a>
+    </nav>
+    <div class="content">
+      <h4>Hello, my name is</h4>
+      <h1>Kevin Bui</h1>
+      <h3>I'm a self-taught web developer.</h3>
+    </div>
+  </div>
+  <!---About me, section-->
+  <section class="about">
+    <div class="main">
+      <img src="typing.jpg" />
+      <div class="about-text">
+        <h2>About Me</h2>
+        <h5>Web Developer & Game enthusiast</h5>
+        <p>
+          Eager and passionate student learning fundamental skills
+          through Coursera and "The Odin Project" to help guide me on a
+          journey of software
+          developments, to enable me to apply them to projects
+          consisting of creating something fun and rewarding. Currently
+          on track taking a course with “IBM for Full Stack Software
+          Development,” learning something new and applying them
+          everyday. <br /><br />
+          Throughout the course, I gain knowledge of creating
+          layouts
+          and designs using HTML5 and CSS to style my works; using
+          JavaScript object-oriented to sort of make them more alive
+          and
+          interactive. Also focusing on building more on the
+          foundation
+          of vanilla JavaScript before I move on to learning
+          frameworks
+          like node.js and react to help build my projects more
+          efficiently and user-friendly. I mainly use Microsoft
+          Visual
+          Studio as my go-to IDE for its lightweight and versatile
+          functionality. Familiarizing GIT and PowerShell as I go to
+          commit my code and install any packages that are related
+          to my
+          code.
+        </p>
+      </div>
+    </div>
+  </section>
+  <!---Projects/Skills section-->
+  <div class="projects">
+    <div class="title">
+      <h2>My Projects</h2>
+    </div>
+
+    <div class="box">
+      <div class="card">
+        <i class="fa-solid fa-calculator"></i>
+        <h5>Simple Interest Calculator</h5>
+        <div class="pra">
+          <p>A small UI calculator to collect the user's principal,
+            rate
+            of interest, year, and display the result below.
+            Once the compute button is clicked, the resulting
+            numbers
+            are highlighted. </p>
+
+          <p style="text-align: center">
+            <a class="button" href="https://github.com/HoisinB0i/Interest-Calculator">GitHub</a>
+            <a class="button" href="https://hoisinb0i.github.io/Interest-Calculator/">Live
+              Preview</a>
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <i class="fa-solid fa-dice-d6"></i>
+        <h5>Block Game</h5>
+        <div class="pra">
+          <p>I made a simple clone of the "Dinosaur Game" that
+            consist
+            of the character and the moving block.
+            Alert the user when hit by the block. Mainly used CSS
+            animations and a Javascript loops for the building
+            blocks.
+          </p>
+          <p style="text-align: center">
+            <a class="button" href="https://github.com/HoisinB0i/Block-Game">GitHub</a>
+            <a class="button" href="https://hoisinb0i.github.io/Block-Game/">Live
+              Preview</a>
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <i class="fa-solid fa-list-check"></i>
+        <h5>To-Do List</h5>
+        <div class="pra">
+          <p>A simple to-do list that user can input data, add to
+            list,
+            and delete their selections.
+            Mainly uses object oriented Javascript to handle the
+            functions of the list.
+          </p>
+          <p style="text-align: center">
+            <a class="button" href="https://github.com/HoisinB0i/To-do-List">GitHub</a>
+            <a class="button" href="https://hoisinb0i.github.io/To-do_List/">Live
+              Preview</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!---Contact me form-->
+  <div class="flex-container">
+    <div class="flex-child contact">
+      <div class="contact-me">
+        <p>Feel free to contact me down below</p>
+        <!---Form that fetch API from getform.io for backend submission-->
+        <div class="form">
+          <form accept-charset="UTF-8" action="https://getform.io/f/751ec193-8481-4fb1-8884-3adb5e87853b" method="POST"
+            enctype="multipart/form-data" target="_blank" id="wpform">
+            <div>
+              <label>Full Name</label>
+              <div>
+                <input style="margin-top: 5px;
+                              font-size: 25px;
+                              background-color: #fff;
+                              height:35px;
+                              width:235px;" type="text" name="first_name" 
+                              placeholder="Enter your name"
+                               required="required">
               </div>
             </div>
-          </section>
-          <!---Projects/Skills section-->
-          <div class="projects">
-            <div class="title">
-              <h2>My Projects</h2>
-            </div>
-
-            <div class="box">
-              <div class="card">
-                <i class="fa-solid fa-calculator"></i>
-                <h5>Simple Interest Calculator</h5>
-                <div class="pra">
-                  <p>A small UI calculator to collect the user's principal, rate
-                    of interest, year, and display the result below.
-                    Once the compute button is clicked, the resulting numbers
-                    are highlighted. </p>
-
-                  <p style="text-align: center">
-                    <a class="button"
-                      href="https://github.com/HoisinB0i/Interest-Calculator">GitHub</a>
-                    <a class="button"
-                      href="https://hoisinb0i.github.io/Interest-Calculator/">Live
-                      Preview</a>
-                  </p>
-                </div>
-              </div>
-              <div class="card">
-                <i class="fa-solid fa-dice-d6"></i>
-                <h5>Block Game</h5>
-                <div class="pra">
-                  <p>I made a simple clone of the "Dinosaur Game" that consist
-                    of the character and the moving block.
-                    Alert the user when hit by the block. Mainly used CSS
-                    animations and a Javascript loops for the building blocks.
-                  </p>
-                  <p style="text-align: center">
-                    <a class="button"
-                      href="https://github.com/HoisinB0i/Block-Game">GitHub</a>
-                    <a class="button"
-                      href="https://hoisinb0i.github.io/Block-Game/">Live
-                      Preview</a>
-                  </p>
-                </div>
-              </div>
-              <div class="card">
-                <i class="fa-solid fa-list-check"></i>
-                <h5>To-Do List</h5>
-                <div class="pra">
-                  <p>A simple to-do list that user can input data, add to list,
-                    and delete their selections.
-                    Mainly uses object oriented Javascript to handle the
-                    functions of the list.
-                  </p>
-                  <p style="text-align: center">
-                    <a class="button"
-                      href="https://github.com/HoisinB0i/To-do-List">GitHub</a>
-                    <a class="button"
-                      href="https://hoisinb0i.github.io/To-do_List/">Live
-                      Preview</a>
-                  </p>
-                </div>
+            <br>
+            <div>
+              <label>Email address</label>
+              <div>
+                <input style="margin-top: 5px;
+                              background-color: #fff;
+                              font-size: 25px;
+                              height:35px;
+                              width:235px;" type="email" name="email" placeholder="Enter your email address"
+                  required="required">
               </div>
             </div>
-          </div>
-          <!---Contact me form-->
-          <div class="contact-me">
-            <p>Feel free to contact me down below</p>
-            <!---Form that fetch API from getform.io for backend submission-->
-            <div class="form">
-              <form accept-charset="UTF-8"
-                action="https://getform.io/f/751ec193-8481-4fb1-8884-3adb5e87853b"
-                method="POST"
-                enctype="multipart/form-data" target="_blank" id="wpform">
-                <div>
-                  <label>Full Name</label>
-                  <div>
-                    <input style="margin-top: 5px;
-                      font-size: 25px;
-                      background-color: #fff;
-                      height:35px;
-                      width:235px;"
-                      type="text" name="first_name" placeholder="Enter your name"
-                      name" required="required">
-                  </div>
-                </div>
-                <br>
-                <div>
-                  <label>Email address</label>
-                  <div>
-                    <input style="margin-top: 5px;
-                      background-color: #fff;
-                      font-size: 25px;
-                      height:35px;
-                      width:235px;"
-                      type="email" name="email"
-                      placeholder="Enter your email address"
-                      required="required">
-                  </div>
-                </div>
-                <br>
-                <label>Your Message</label>
-                <div>
-                  <textarea style="margin-top: 5px;
-                    background-color: #fff;
-                    font-size: 25px;
-                    height:75px;
-                    width:750px;"
-                    type="text" name="message"
-                    placeholder="Enter your message"
-                    required="required"></textarea>
-                </div>
-                <br>
-                <input type="hidden" name="utf8" value="✓">
-                <button style="font-size:20px;
-                  background-color:rgb(224, 84, 33);
-                  color:#fff;
-                  font-weight:bold;
-                  padding:10px 35px;
-                  margin: 5px 0 0 0;
-                  cursor: pointer;"
-                  type="submit">SUBMIT</button>
-              </form>
+            <br>
+            <label>Your Message</label>
+            <div>
+              <textarea style="margin-top: 5px;
+                            background-color: #fff;
+                            font-size: 25px;
+                            height:75px;
+                            width:750px;" type="text" name="message" placeholder="Enter your message"
+                required="required"></textarea>
             </div>
-          </div>
-          <!--Footer section-->
-          <footer>
-            <p>Kevin Bui</p>
-            <p>For more information about me, please - take a look on my pages
-              below</p>
-            <div class="social">
-              <a href="https://github.com/HoisinB0i"><i class="fa-brands
-                  fa-github-square"></i></a>
-              <a href="https://www.linkedin.com/in/kevin-bui-292b6a21b/"><i
-                  class="fa-brands fa-linkedin"></i></a>
-            </div>
-            <p class="end">Kevin Bui <i class="fa-solid fa-copyright"></i> 2022</p>
-          </footer>
-          <script src="script.js"></script>
-        </body>
-      </html>
+            <br>
+            <input type="hidden" name="utf8" value="✓">
+            <button style="font-size:30px;
+                          background-color:rgb(224, 84, 33);
+                          color:#fff;
+                          font-weight:bold;
+                          padding:10px 35px;
+                          margin: 5px 0 0 0;
+                          cursor: pointer;" type="submit">SUBMIT</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!--Languages list-->
+    <div class="flex-child languages">
+      <h2>Languages and Frameworks</h2>
+      <ul>
+        <ul class="social-set">
+          <li><a class="sociali" href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" aria-label="HTML">
+            <i class="fa-brands fa-html5" title="HTML5"></i></a></li>
+          <li><a class="sociali" href="#" target="_blank" aria-label="HTML5">
+            <i class="fa-brands fa-css3-alt" title="CSS"></i></a></li>
+            <li><a class="sociali" href="https://www.javascript.com/" target="_blank" aria-label="JavaScript">
+              <i class="fa-brands fa-js" title="JavaScript"></i></a></li>  
+          <li><a class="sociali" href="https://nodejs.org/en/" target="_blank" aria-label="CSS">
+            <i class="fa-brands fa-node" title="Node JS"></i></a></li>
+            <li><a class="sociali" href="https://reactjs.org/" target="_blank" aria-label="Node JS">
+              <i class="fa-brands fa-react" title="React"></i></a></li>
+              <li><a class="sociali" href="https://github.com/" target="_blank" aria-label="React">
+                <i class="fa-brands fa-git-square" title="GitHub"></i></a></li>
+      </ul>
+    </div>
+  </div>
+  <!--Footer section-->
+  <footer>
+    <p>Kevin Bui</p>
+    <p>For more information about me, please - take a look on my
+      pages
+      below</p>
+    <div class="social">
+      <a href="https://github.com/HoisinB0i"><i class="fa-brands
+                      fa-github-square"></i></a>
+      <a href="https://www.linkedin.com/in/kevin-bui-292b6a21b/"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+    <p class="end">Kevin Bui <i class="fa-solid fa-copyright"></i>
+      2022</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
