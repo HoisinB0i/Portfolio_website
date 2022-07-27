@@ -36,7 +36,7 @@ html {
 .hero {
   height: 100vh;
   width: 100%;
-  background-image: url("portfolio-background.jpg");
+  background-image: url("img/portfolio-background.jpg");
   background-repeat: round;
   background-position: left;
 }
@@ -117,18 +117,18 @@ nav ul li {
 h1 {
   color: white;
   margin: 20px 0px 20px;
-  font-size: 150px;
+  font-size: 8vw;
 }
 h3 {
   color: white;
   letter-spacing: 2px;
-  font-size: 75px;
+  font-size: 5vw;
 }
 h4 {
   color: rgb(224, 84, 33);
   max-width: 100%;
   position: relative;
-  font-size: 50px;
+  font-size: 4vw;
 }
 /* About me style */
 .about {
@@ -136,16 +136,12 @@ h4 {
   padding: 2%;
   background-color: rgb(0, 0, 0);
 }
-.about img {
-  height: auto;
-  max-width: 100%;
-}
 .about-text {
   padding-left: 100px;
 }
 /* About me background style */
 .main {
-  width: 1130px;
+  max-width: 2529px;
   max-width: 95%;
   margin: 0 auto;
   display: flex;
@@ -169,9 +165,9 @@ h4 {
   color: aliceblue;
   letter-spacing: 2px;
   line-height: 35px;
-  font-size: 35px;
+  font-size: 2vw;
   margin: 10px;
-  width: 1000px;
+  width: 100%;
 }
 /* My projects background */
 .projects {
@@ -196,7 +192,7 @@ h4 {
 }
 
 .card {
-  height: 500px;
+  height: 300px;
   width: 500px;
   padding: 20px 35px;
   background: #191919;
@@ -208,7 +204,7 @@ h4 {
 }
 
 .card i {
-  font-size: 100px;
+  font-size: 40px;
   display: block;
   text-align: center;
   margin: 25px 0px;
@@ -217,13 +213,14 @@ h4 {
 
 h5 {
   color: white;
-  font-size: 50px;
+  font-size: 1vw;
   margin-bottom: 15px;
+  font-weight: bold;
 }
 
 .pra p {
   color: aliceblue;
-  font-size: 25px;
+  font-size: 1vw;
   line-height: 27px;
   margin-bottom: 25px;
 }
@@ -232,7 +229,7 @@ h5 {
   background-color: rgb(224, 84, 33);
   color: white;
   text-decoration: none;
-  border-radius: 30px;
+  border-radius: 45px;
   border: 2px solid transparent;
   padding: 8px 22px;
   transition: 0.4s;
@@ -383,4 +380,10 @@ footer p:nth-child(2) {
 }
 label {
   color: rgb(224, 84, 33);
+}
+
+@media only screen and (max-width:1024px){
+  .about, .hero  {
+    width: 100%;
+  }
 }
